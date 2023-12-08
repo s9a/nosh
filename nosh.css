@@ -23,6 +23,7 @@ header {
 }
 
 h1 {
+  display: flex;
   padding: 3vmin;
 }
 
@@ -36,11 +37,13 @@ a {
   padding: 1ch;
 }
 
+p { font-weight: bold }
 samp { padding-inline: 1vw; font-size: 1.236em }
 small { display: block; font-size: 1ch }
 sub { all: unset }
 sup { all: unset; font-size: 1.236em }
 s { text-decoration-style: wavy }
+em { text-shadow: 1vw -1vh 3pc var(--tape-bluv) }
 a:hover { text-decoration-style: double }
 :any-link { text-decoration-style: dotted }
 
