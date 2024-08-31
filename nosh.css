@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  contain; layout;
+  contain: layout;
   display: flex;
   flex-direction: column;
   margin: auto;
